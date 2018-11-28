@@ -1,0 +1,40 @@
+Python programs
+
+Challenge 1
+
+print("This is the output of my first program")
+
+Challenge 2
+
+#Python2
+#a = raw_input("Insert something: ")
+
+#Python3
+a = input("Insert something: ")
+print(a)
+
+Challenge 3
+
+file = open("file_prova.txt")
+
+#print(file.read())
+
+while 1:
+    line = file.readline()
+    if not line:
+        break
+    print(line)
+
+Challenge 4
+
+sequence = "AAAAACCGGGTTT"
+
+num_A = sequence.count("A")
+num_C = sequence.count("C")
+num_G = sequence.count("G")
+num_T = sequence.count("T")
+
+print(num_A)
+print(num_C)
+print(num_G)
+print(num_T)

@@ -1,0 +1,60 @@
+The python Shell
+
+Challenge 1
+
+>>> a = 5
+>>> b = 6
+>>> a+b
+11
+>>> b = 3
+>>> a / b
+1.6666666666666667
+>>> a * b
+15
+>>> a ** 2
+25
+
+Challenge 2
+
+from math import pi
+
+d = 10.0
+
+r = d / 2.0
+
+V = (4.0/3.0)*pi*(r**3)
+print(V)
+
+Challenge 3
+
+import math
+
+a_x = 43.64
+a_y = 30.72
+a_z = 88.95
+b_x = 45.83
+b_y = 31.11
+b_z = 92.04
+
+d = ((b_x ** 2) - (a_x **2)) + ((b_y ** 2) - (a_y **2)) + ((b_z ** 2) - (a_z **2))
+
+d = math.sqrt(d)
+
+print("the distance is ", d)
+
+Challenge 5
+
+import math
+
+ATP = 3.5
+ADP = 1.8
+Pi = 5.0
+
+DG0 = -30.5
+R = 0.00831
+T = 298
+
+temp = ADP * Pi / ATP 
+DG = DG0 + R*T* math.log(temp,2)
+
+print("the Gibbs energy is ", DG)
